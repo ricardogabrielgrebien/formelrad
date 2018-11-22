@@ -51,11 +51,15 @@ public class Calculator {
 	
 	/* Hier die Methoden mit den Formlen hinzufügen
 	 */
-	private double pfromUandI(double u, double i){
-		return u*i;
+	private double ufromRandI(double r, double i){
+		return r*i;
 	}
 	
 	private double uFromPandI(double p, double i){
 		return p/i;
+	}
+	
+	private double uFromPandR(double p, double r){
+		return java.lang.Math.sqrt(p*r);
 	}
 }
