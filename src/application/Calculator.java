@@ -54,4 +54,8 @@ public class Calculator {
 	private double pfromUandI(double u, double i){
 		return u*i;
 	}
+	
+	private double uFromPandI(double p, double i){
+		return p/i;
+	}
 }
